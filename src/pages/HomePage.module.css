@@ -1,0 +1,83 @@
+.home {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .about-section,
+  .secretary-section {
+    padding: 40px;
+    text-align: center;
+    background-color: #f7f7f7;
+  }
+  
+  .about-section h2,
+  .secretary-section h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+    color: #2b3a55;
+  }
+  
+  .about-section p,
+  .secretary-section p {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+  
+  .secretary-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .secretary-content img {
+    width: 180px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .academic-section {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  
+  .academic-buttons {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px 20px;
+    border-radius: 20px;
+    transform: translateY(50%);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  }
+  
+  .academic-buttons button {
+    background-color: #0077b6;
+    color: white;
+    font-size: 18px;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .academic-buttons button:hover {
+    background-color: #023e8a;
+    transform: scale(1.05);
+  }
+  
+
+  
