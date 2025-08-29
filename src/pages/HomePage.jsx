@@ -87,7 +87,9 @@ const HomePage = () => {
       <section className="academic-section"   style={{ backgroundImage: `url(${heroBg})` }}>
         <h2>ACADEMIC UNITS</h2>
         <div className="academic-buttons">
-          <button>🏫 Schools</button>
+          {/* <button>🏫 Schools</button> */}
+          <Link to="/schools"><button>🏫 Schools</button></Link>
+
           <button>🏠 Hostels</button>
           <button>🎓 Colleges</button>
           <button>💻 E-Learning</button>

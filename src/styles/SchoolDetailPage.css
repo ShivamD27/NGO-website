@@ -1,0 +1,148 @@
+.school-detail-wrap { font-family: 'Poppins', sans-serif; }
+
+/* HERO */
+.school-hero {
+  position: relative;
+  min-height: 70vh;
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  color: #fff;
+}
+.school-hero-overlay { position: absolute; inset: 0; background: rgba(0,0,0,0.45); }
+.school-hero-content { position: relative; z-index: 1; padding: 20px; }
+.school-hero h1 { font-size: 2.2rem; margin: 0 0 8px; }
+.btn-outline {
+  display: inline-block; margin-top: 12px; padding: 8px 14px;
+  border: 1px solid #e2e8f0; border-radius: 8px; color: #fff; text-decoration: none;
+  transition: background .2s ease, transform .2s ease;
+}
+.btn-outline:hover { background: rgba(255,255,255,0.1); transform: translateY(-1px); }
+
+/* Sections */
+.school-section { padding: 48px 6% 28px; }
+.school-section h2 { color: #0f172a; margin-bottom: 14px; }
+.lead { color: #334155; line-height: 1.7; max-width: 1000px; }
+
+/* Features */
+.features-list { list-style: none; padding: 0; margin: 0; color: #334155; }
+.features-list li { margin: 8px 0; }
+
+/* Gallery */
+.school-gallery .gallery-item { padding: 0 10px; }
+.school-gallery img {
+  width: 100%; height: 240px; object-fit: cover; border-radius: 10px;
+  box-shadow: 0 8px 22px rgba(0,0,0,0.12);
+}
+
+/* Events */
+.events-list { display: grid;  align-items: center;
+  background: #fff; border: 1px solid #eef2f7; border-radius: 12px;
+  padding: 14px 16px; box-shadow: 0 8px 20px rgba(0,0,0,0.06);}
+
+
+.event-year {
+  font-weight: 700; font-size: 1rem; color: #1e293b;
+  background: #e2e8f0; border-radius: 8px; padding: 8px; text-align: center;
+}
+.event-title { font-weight: 600; color: #0f172a; }
+.event-note { color: #475569; }
+
+/* Alumni */
+.alumni-grid {
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px;
+}
+@media (max-width: 9000px) {
+  .alumni-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 560px) {
+  .alumni-grid { grid-template-columns: 1fr; }
+}
+.alumni-card {
+  background: #ffffff; border: 1px solid #eef2f7; border-radius: 12px;
+  padding: 14px 16px; box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+}
+.alumni-name { font-weight: 600; color: #0f172a; margin-bottom: 4px; }
+.alumni-highlight { color: #475569; }
+
+/* Contact + Map */
+.contact-grid {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 20px; align-items: start;
+}
+@media (max-width: 900px) {
+  .contact-grid { grid-template-columns: 1fr; }
+}
+.map-card {
+  background: #fff; border: 1px solid #eef2f7; border-radius: 12px;
+  padding: 10px; box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+}
+
+/* Not found */
+.school-not-found { padding: 60px 6%; text-align: center; }
+.btn-primary {
+  display: inline-block; margin-top: 14px; padding: 10px 16px;
+  background: #0077b6; color: #fff; border-radius: 8px; text-decoration: none;
+}
+.btn-primary:hover { opacity: 0.9; }
+
+
+/* Generic card */
+.card {
+  background: #ffffff;
+  border: 1px solid #eef2f7;
+  border-radius: 14px;
+  padding: 20px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+  text-align: left;
+}
+
+/* ABOUT + FEATURES side by side */
+.school-grid-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 48px 6% 28px;
+}
+@media (max-width: 900px) {
+  .school-grid-section {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Features list in card */
+.features-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.feature-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 15px;
+  color: #1e293b;
+}
+.feature-icon {
+  color: #16a34a; /* green check */
+  font-size: 18px;
+}
+/* Sports Card (same styling as features) */
+.sports-card .feature-icon {
+  color: #eab308; /* golden trophy color */
+}
+
+/* Triple section: Events + Alumni + Sports */
+.school-triple-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  padding: 48px 6% 28px;
+}
+
+@media (max-width: 900px) {
+  .school-triple-section {
+    grid-template-columns: 1fr;
+  }
+}

@@ -12,6 +12,8 @@ import FeedbackPage from './pages/FeedbackPage';
 import ContactPage from './pages/ContactPage';
 import AdminPage from './pages/AdminPage';
 import ScrollToTop from './components/ScrollToTop';
+import SchoolDetailPage from './pages/SchoolDetailPage.jsx'; // ✅ Add this line
+
 
 
 function App() {
@@ -25,6 +27,8 @@ function App() {
             <Route path="/" element={<HomePage />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/schools" element={<SchoolsPage />} />
+            <Route path="/schools/:slug" element={<SchoolDetailPage />} />
+
             <Route path="/hostels" element={<HostelsPage />} />
             <Route path="/gallery" element={<GalleryPage />} />
             <Route path="/e-learning" element={<ELearningPage />} />

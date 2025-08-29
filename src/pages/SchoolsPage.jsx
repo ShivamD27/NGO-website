@@ -1,6 +1,34 @@
+import React from "react";
+import { Link } from "react-router-dom";
+import schools from "../data/schools.js";
+import "../styles/SchoolsPage.css";
 
-function SchoolsPage() {
-    return <h2 className="text-2xl font-bold text-center">Welcome to the school Page</h2>;
-  }
-  export default SchoolsPage;
-  
+const SchoolsPage = () => {
+  return (
+    <div className="schools-page">
+      <h1>Our Schools</h1>
+      <div className="schools-grid">
+        {schools.map((school) => (
+          <Link
+            to={`/schools/${school.slug}`}
+            key={school.id}
+            className="school-card"
+          >
+            <img
+              src={school.heroImage}
+              alt={school.name}
+              className="school-card-image"
+            />
+            <div className="school-card-content">
+              <h2>{school.name}</h2>
+              <p>{school.location}</p>
+              <span>{school.intakeLabel}</span>
+            </div>
+          </Link>
+        ))}
+      </div>
+    </div>
+  );
+};
+
+export default SchoolsPage;
