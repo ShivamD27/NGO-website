@@ -5,24 +5,24 @@ import shewadi2 from "../assets/schools/shewadi/2.jpeg";
 import shewadi3 from "../assets/schools/shewadi/3.jpeg";
 
 import ruihero from "../assets/schools/rui/hero.jpg";
-import rui1 from "../assets/schools/shewadi/1.jpeg";
-import rui2 from "../assets/schools/shewadi/2.jpeg";
-import rui3 from "../assets/schools/shewadi/3.jpeg";
+import rui1 from "../assets/schools/rui/1.jpeg";
+import rui2 from "../assets/schools/rui/2.jpeg";
+import rui3 from "../assets/schools/rui/3.jpeg";
 
 import nandedHero from "../assets/schools/nanded/hero.jpg";
-import nanded1 from "../assets/schools/shewadi/1.jpeg";
-import nanded2 from "../assets/schools/shewadi/2.jpeg";
-import nanded3 from "../assets/schools/shewadi/3.jpeg";
+import nanded1 from "../assets/schools/nanded/1.jpeg";
+import nanded2 from "../assets/schools/nanded/2.jpeg";
+import nanded3 from "../assets/schools/nanded/3.jpeg";
 
 import risangaoHero from "../assets/schools/risangao/hero.jpg";
-import risangao1 from "../assets/schools/shewadi/1.jpeg";
-import risangao2 from "../assets/schools/shewadi/2.jpeg";
-import risangao3 from "../assets/schools/shewadi/3.jpeg";
+import risangao1 from "../assets/schools/risangao/1.jpeg";
+import risangao2 from "../assets/schools/risangao/2.jpeg";
+import risangao3 from "../assets/schools/risangao/3.jpeg";
 
 import jalnaHero from "../assets/schools/jalna/hero.jpg";
-import jalna1 from "../assets/schools/shewadi/1.jpeg";
-import jalna2 from "../assets/schools/shewadi/2.jpeg";
-import jalna3 from "../assets/schools/shewadi/3.jpeg";
+import jalna1 from "../assets/schools/jalna/1.jpeg";
+import jalna2 from "../assets/schools/jalna/2.jpeg";
+import jalna3 from "../assets/schools/jalna/3.jpeg";
 
 
 const schools = [
